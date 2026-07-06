@@ -1,6 +1,7 @@
 
 :root {
   --primary: #2f6feb;
+  --primary-hover: #2559c7;
   --bg: #ffffff;
   --sidebar-bg: #f6f8fa;
   --border: #d0d7de;
@@ -175,7 +176,7 @@ body {
 }
 
 .btn:hover {
-  opacity: 0.9;
+  background: var(--primary-hover);
 }
 
 .site-footer {

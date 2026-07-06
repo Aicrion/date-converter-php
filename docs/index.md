@@ -8,7 +8,7 @@ nav_order: 1
 
 A high-performance, zero-dependency PHP 8.2+ library for converting dates between **Gregorian**, **Jalali (Persian/Shamsi)**, and **Hijri (Islamic/Qamari)** calendars.
 
-[View on GitHub](https://github.com/aicrion/date-converter){: .btn }
+[View on GitHub](https://github.com/aicrion/date-converter-php){: .btn }
 [Get Started](getting-started.html){: .btn }
 
 ## Why this library?
