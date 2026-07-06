@@ -2,13 +2,16 @@ title: Aicrion Date Converter
 description: >-
   High-performance PHP 8.2+ library for converting between Gregorian,
   Jalali (Persian/Shamsi), and Hijri (Islamic/Qamari) calendars.
-theme: jekyll-theme-cayman
-show_downloads: false
-url: "https://aicrion.github.io"
-baseurl: "/date-converter"
 
+remote_theme: pages-themes/cayman
 plugins:
+  - jekyll-remote-theme
   - jekyll-relative-links
+
+show_downloads: false
+
+url: "https://aicrion.github.io"
+baseurl: "/date-converter-php"
 
 markdown: kramdown
 kramdown:

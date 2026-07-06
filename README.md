@@ -3,9 +3,9 @@
 A high-performance, zero-dependency PHP 8.2+ library for converting dates between **Gregorian**, **Jalali (Persian/Shamsi)**, and **Hijri (Islamic/Qamari)** calendars.
 
 [![PHP Version](https://img.shields.io/badge/php-%3E%3D8.2-777bb4)](https://www.php.net/)
-[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE.md)
 
-📖 **[Full Documentation](https://aicrion.github.io/date-converter/)**
+📖 **[Full Documentation](https://aicrion.github.io/date-converter-php/)**
 
 ## Why this library?
 
@@ -66,7 +66,7 @@ echo $today->format('Y/m/d');
 
 Full API reference, algorithm notes, and advanced usage examples are published at:
 
-**https://aicrion.github.io/date-converter/**
+**https://aicrion.github.io/date-converter-php/**
 
 ## Testing
 
