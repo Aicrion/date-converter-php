@@ -3,9 +3,7 @@ description: >-
   High-performance PHP 8.2+ library for converting between Gregorian,
   Jalali (Persian/Shamsi), and Hijri (Islamic/Qamari) calendars.
 
-remote_theme: pages-themes/cayman
 plugins:
-  - jekyll-remote-theme
   - jekyll-relative-links
 
 show_downloads: false

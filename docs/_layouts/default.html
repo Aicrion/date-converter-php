@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@primer/css@21/dist/primer.css">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header class="page-header">
+    <div class="header-inner">
+      <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+      <p>{{ site.description }}</p>
+      <nav class="site-nav">
+        <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="active"{% endif %}>Home</a>
+        <a href="{{ '/getting-started.html' | relative_url }}"{% if page.url contains 'getting-started' %} class="active"{% endif %}>Getting Started</a>
+        <a href="{{ '/format-tokens.html' | relative_url }}"{% if page.url contains 'format-tokens' %} class="active"{% endif %}>Format Tokens</a>
+        <a href="{{ '/error-handling.html' | relative_url }}"{% if page.url contains 'error-handling' %} class="active"{% endif %}>Error Handling</a>
+        <a href="{{ '/architecture.html' | relative_url }}"{% if page.url contains 'architecture' %} class="active"{% endif %}>Architecture</a>
+        <a href="https://github.com/aicrion/date-converter-php">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="main-content-wrap">
+    <aside class="sidebar-toc">
+      <strong>Contents</strong>
+      <ul>
+        <li><a href="{{ '/' | relative_url }}">Introduction</a></li>
+        <li><a href="{{ '/getting-started.html' | relative_url }}">Getting Started</a></li>
+        <li><a href="{{ '/format-tokens.html' | relative_url }}">Format Tokens</a></li>
+        <li><a href="{{ '/error-handling.html' | relative_url }}">Error Handling</a></li>
+        <li><a href="{{ '/architecture.html' | relative_url }}">Architecture</a></li>
+      </ul>
+    </aside>
+
+    <main class="main-content">
+      {{ content }}
+
+      <div class="page-nav-buttons">
+        {% assign pages_order = "|,/getting-started.html,/format-tokens.html,/error-handling.html,/architecture.html" | split: "," %}
+      </div>
+    </main>
+  </div>
+
+  <footer class="site-footer">
+    <p>Aicrion Date Converter &middot; MIT License &middot; <a href="https://github.com/aicrion/date-converter-php">View on GitHub</a></p>
+  </footer>
+</body>
+</html>
