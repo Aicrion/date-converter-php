@@ -1,0 +1,62 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="BadExpressionStatementJS" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="CssUnknownProperty" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myCustomPropertiesEnabled" value="true" />
+      <option name="myIgnoreVendorSpecificProperties" value="false" />
+      <option name="myCustomPropertiesList">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="user-select" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="DuplicatedCode" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="GrazieInspection" enabled="false" level="GRAMMAR_ERROR" enabled_by_default="false" />
+    <inspection_tool class="HtmlFormInputWithoutLabel" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="6">
+            <item index="0" class="java.lang.String" itemvalue="x-portal:screen" />
+            <item index="1" class="java.lang.String" itemvalue="x-portal" />
+            <item index="2" class="java.lang.String" itemvalue="webkitallowfullscreen" />
+            <item index="3" class="java.lang.String" itemvalue="mozallowfullscreen" />
+            <item index="4" class="java.lang.String" itemvalue="x-teleport" />
+            <item index="5" class="java.lang.String" itemvalue="x-mask" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="HtmlWrongAttributeValue" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="HttpUrlsUsage" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="JSDeprecatedSymbols" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="JSLastCommaInObjectLiteral" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JSUndeclaredVariable" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JSUnresolvedReference" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="LanguageDetectionInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PhpDefineCanBeReplacedWithConstInspection" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="PhpFullyQualifiedNameUsageInspection" enabled="true" level="INFORMATION" enabled_by_default="true">
+      <option name="IGNORE_GLOBAL_NAMESPACE" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PhpMissingClassConstantTypeInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PhpMissingParamTypeInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PhpMissingReturnTypeInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PhpMultipleClassDeclarationsInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PhpShortOpenTagInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PhpUnnecessaryLocalVariableInspection" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="PhpUnused" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PhpUnusedLocalVariableInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PhpUnusedParameterInspection" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="SpellCheckingInspection" enabled="false" level="TYPO" enabled_by_default="false">
+      <option name="processCode" value="true" />
+      <option name="processLiterals" value="true" />
+      <option name="processComments" value="true" />
+    </inspection_tool>
+    <inspection_tool class="SqlNoDataSourceInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="XmlUnboundNsPrefix" enabled="true" level="INFORMATION" enabled_by_default="true" />
+  </profile>
+</component>
